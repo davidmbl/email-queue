@@ -3,6 +3,6 @@
 
     We are happy to have you
 
-    Thanks,<br>
+    Thanks,
     {{ config('app.name') }}
 @endcomponent
