@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('email_records', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('email')->unique();
+            $table->string('email');
             $table->boolean('email_sent')->default(false);
             $table->datetime('sent_at')->nullable();
             $table->integer('attempts')->default(0);

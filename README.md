@@ -6,7 +6,7 @@ docker run -d -p 7000:6379 --name redis redis
 ```
 Update your `.env` file with the following settings:
 ```ini
-REDIS_HOST=127.0.0.1  # or 'host.docker.internal' if using Docker
+REDIS_HOST=127.0.0.1  
 REDIS_PORT=7000
 ```
 ### Run Migrations
